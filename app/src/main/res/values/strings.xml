@@ -4,4 +4,5 @@
         <item>男生</item>
         <item>女生</item>
     </string-array>
+    <string name="ok">確定</string>
 </resources>
