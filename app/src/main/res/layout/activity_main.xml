@@ -13,7 +13,7 @@
         android:entries="@array/gender"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.207"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.072" />
@@ -22,10 +22,22 @@
         android:id="@+id/btOk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="164dp"
         android:text="@string/ok"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spGender" />
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:hint="@string/hint_age"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/spGender"
+        app:layout_constraintStart_toStartOf="@+id/spGender"
         app:layout_constraintTop_toBottomOf="@+id/spGender" />
 </androidx.constraintlayout.widget.ConstraintLayout>
